@@ -1,10 +1,10 @@
 def prime?(number)
-  range_to_array = (0..max).to_a 
-  Prime.prime?(range_to_array)
+  # range_to_array = (0..max).to_a 
+  (number).none? {|num|number % num == 0}
 end
 
 
-(interger).each{|num|num % num == 0}
 
-interger % interger
+
+# interger % interger
 
