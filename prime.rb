@@ -3,7 +3,7 @@ def prime?(n)
   if n < 2 
     true
   else (2..n/2).none? {|num|n % num == 0}
-    true 
+    false 
   end
 end
 
