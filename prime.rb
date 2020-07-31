@@ -8,7 +8,7 @@ def prime?(n)
 end
 
 # def prime?(n)
-#   if n <= 1
+#   if n < 2
 #     return false
 #   elsif n <= 3
 #     return true
