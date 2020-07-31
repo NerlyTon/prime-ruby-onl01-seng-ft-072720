@@ -2,7 +2,7 @@ def prime?(n)
   # range_to_array = (0..max).to_a 
   if (2..n/2).none? {|num|n % num == 0}
     true 
-  else n <= 1
+  else n < 2
     false
   end
 end
